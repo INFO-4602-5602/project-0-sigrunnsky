@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    font-size: 11px;
+    font-size: 20px;
 }
 
 .axis path,
@@ -11,13 +11,22 @@ body {
 }
 
 .point {
-    fill: #f00; 
+    /*fill: #f00; */
     stroke: #000;
+}
+.titles{
+    text-anchor: middle;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .label {
     text-anchor: middle;
-    font-size: 12px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
+}
+.bar{
+    shape-rendering: crispEdges;
 }
