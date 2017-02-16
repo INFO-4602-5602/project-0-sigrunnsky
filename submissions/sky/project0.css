@@ -27,6 +27,8 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
-.bar{
+.bar{ 
     shape-rendering: crispEdges;
 }
+/*as you can see I put most of the css styling in the javascript. 
+Maybe not the most efficient/clean approach. :) */
